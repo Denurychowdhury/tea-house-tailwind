@@ -2,7 +2,14 @@
 module.exports = {
     content: ["./src/**/*.{html,js}"],
     theme: {
-        extend: {},
+        extend: {
+            colors: {
+                clifford: '#da373d',
+            }
+            // fontFamily:{
+            //     'manrope':['manrope' , 'sans - sarif'],
+            // },
+        },
     },
     plugins: [],
 }
